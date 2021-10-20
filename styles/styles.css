@@ -1,0 +1,720 @@
+@import "./variables.css";
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: var(--main-bg-light);
+  color: var(--dark);
+  background-image: url("/images/profile/brella-background.png");
+  background-size: cover;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  border-bottom: var(--active-link) 1.5px solid;
+  border-top: var(--active-link) 1.5px solid;
+
+  /* background-color: var(--dark);
+  color: var(--active-link);
+  border-radius: 4px; */
+}
+
+/* .navbar-collapse.collapse ul li a {
+  padding-left: 10px;
+} */
+
+.logo img {
+  width: 150px;
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: var(--main-bg-medium);
+}
+
+.navbar-collapse {
+  padding-top: 1rem;
+  box-shadow: #5c6a69 0px 8px 6px -7px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.nav-link {
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--dark);
+}
+
+/* search form */
+
+.d-flex {
+  align-items: center;
+}
+
+.form-control {
+  border-radius: 6px 0px 0px 6px;
+  height: 45px;
+}
+
+.btn-outline-success {
+  border: none;
+  color: var(--dark);
+  background: white;
+  border-radius: 0px 6px 6px 0px;
+  height: 43px;
+  background-color: #84a9ac36;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:active {
+  background-color: var(--primary-button);
+  /* background-color: var(--banner-primary); */
+}
+
+.btn-outline-success:focus {
+  /* box-shadow: 0px 0px 6px 0px rgba(81, 205, 234, 0.5); */
+  box-shadow: none;
+}
+
+.btn-outline-success:active:focus {
+  /* box-shadow: 0px 0px 6px 0px rgba(81, 205, 234, 0.5); */
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: none;
+  /* box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); */
+  box-shadow: none;
+}
+
+.navbar-light,
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Top container */
+
+.intro-container {
+  background-color: var(--main-bg-medium);
+  padding-bottom: 2rem;
+}
+
+.inner-intro-container {
+  position: relative;
+  padding-top: 2rem;
+}
+
+.intro-text-wrap {
+  position: absolute;
+  right: 17%;
+  top: 27%;
+}
+
+.intro-text-wrap p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.intro-photo {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* News */
+
+.wrap-top-content {
+  z-index: 5;
+  position: relative;
+  background-color: var(--main-bg-medium);
+}
+
+.top-container {
+  padding-bottom: 3rem;
+}
+
+.news {
+  padding-top: 2rem;
+  height: 320px;
+}
+
+.banner {
+  position: relative;
+  padding: 1rem;
+  background-color: var(--banner-primary);
+  margin-bottom: 2rem;
+}
+
+.banner__img {
+  position: relative;
+  /* height: 100px; */
+  /* border: red solid thin; */
+}
+
+.news-img {
+  width: 65%;
+  right: -15px;
+  top: 8rem;
+  position: absolute;
+}
+
+.news-text-wrap {
+  color: var(--light-grey);
+  max-width: 300px;
+  /* margin-top: -5rem; */
+}
+
+.news-text-wrap p {
+  max-width: 230px;
+}
+
+.news-heading {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  font-weight: 600;
+  /* text-transform: uppercase; */
+}
+
+.btn_lookbook {
+  margin-top: 1rem;
+  /* background-color: var(--primary-button); */
+  background-color: var(--light-grey);
+  box-shadow: 2px 1px 5px 2px rgba(134, 141, 138, 0.25);
+}
+
+.btn_lookbook:hover {
+  background-color: var(--primary-button);
+  /* background-color: var(--secondary-button); */
+  color: var(--dark);
+}
+
+/* Pattern background */
+
+/* .wrap-background {
+  position: relative;
+  z-index: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.background-bottom {
+  position: absolute;
+  background-image: url("/images/profile/brella-background-new.png");
+  height: 2400px;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+} */
+
+/* Products */
+
+.product-wrapper {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.product {
+  position: relative;
+  width: 100%;
+}
+
+.product figure img {
+  width: 100%;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.product-link-text,
+.overlay-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  top: 10%;
+}
+
+.product-link-text__arrow {
+  background-image: url("/images/profile/brella-arrow.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+/* Search arrow */
+
+.search-arrow {
+  transform: rotate(0.75turn);
+  height: 17px;
+  width: 22px;
+}
+
+/* Hover overlay */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.item-furniture:hover .overlay,
+.item-trending:hover .overlay,
+.product-container_item:hover .overlay {
+  opacity: 1;
+  box-shadow: 2px 1px 5px 2px rgba(134, 141, 138, 0.25);
+}
+
+/* Inspiration */
+
+.bottom-content_item {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.inspiration-wrap {
+  background: var(--dark);
+  padding: 1rem;
+  height: 800px;
+}
+
+.inspo-img {
+  width: 100%;
+  max-height: 62%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn_inspiration {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7%;
+  margin: auto;
+  width: 140px;
+  box-shadow: 2px 1px 5px 2px rgba(9, 9, 9, 0.207);
+}
+
+.btn_inspiration:hover {
+  background-color: var(--primary-button);
+}
+
+.insp-text-container {
+  color: var(--light-grey);
+  padding-top: 2.2rem;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  background-color: var(--dark);
+  height: 200px;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+footer .nav .nav-item .nav-link {
+  color: var(--light-grey);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+footer .nav .nav-item .nav-link:hover {
+  color: var(--active-link);
+}
+
+.nav-footer {
+  align-items: center;
+  max-width: 400px;
+}
+
+.logo-footer {
+  background-image: url("/images/profile/brella-element.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.logo-link {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.desktop {
+  display: none;
+}
+
+.inspo-desktop {
+  display: none;
+}
+
+.wide-desktop,
+.wide {
+  display: none;
+}
+
+@media only screen and (min-width: 450px) {
+  .news-img {
+    top: 4rem;
+  }
+  .btn_inspiration {
+    position: relative;
+    margin: unset;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .news-img {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .intro-text-wrap p {
+    font-size: 1.5rem;
+  }
+  .products h2 {
+    font-size: 1.3rem;
+  }
+  .intro-photo {
+    height: 400px;
+  }
+
+  .news-img {
+    top: -4rem;
+    width: 58%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .product-wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .desktop {
+    display: flex;
+    padding: 0;
+  }
+
+  .desktop-container {
+    display: flex;
+  }
+
+  .btn_inspiration {
+    margin-top: 2rem;
+  }
+
+  .inspo-992px .inspiration-wrap {
+    display: flex;
+    height: unset;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .inspo-992px .inspiration-wrap .inspo-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .inspo-992px .inspiration-wrap .insp-text-container {
+    width: 300px;
+    padding: 0;
+  }
+
+  .inspo-992px .inspiration-wrap .insp-text-container .btn_inspiration {
+    margin-top: 1rem;
+  }
+
+  .product-wrapper .products {
+    padding: 0;
+  }
+
+  .furniture-product {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .news {
+    padding: 3rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-collapse {
+    padding-top: initial;
+    box-shadow: none;
+  }
+
+  .nav-link-header {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .news {
+    padding: 1rem;
+  }
+
+  .small-laptop {
+    display: none;
+  }
+
+  .wide-desktop {
+    display: flex;
+  }
+  .intro-container {
+    display: none;
+  }
+  .banner-desktop {
+    padding-top: 4rem;
+  }
+  .banner {
+    padding: 3rem;
+  }
+  .news-img {
+    width: 350px;
+    z-index: 1;
+    right: 18%;
+    top: -3rem;
+  }
+  .banner__brella-pattern {
+    background-image: url("/images/profile/brella-pattern.svg");
+    position: absolute;
+    height: 416px;
+    width: 29.8%;
+    right: 0;
+    top: 0;
+  }
+
+  .logo img {
+    /* padding-top: 0.9rem; */
+    margin-right: 4rem;
+  }
+
+  .nav-link {
+    margin-top: unset;
+  }
+  .form-control {
+    height: 38px;
+  }
+
+  .btn-outline-success {
+    height: 36px;
+  }
+
+  .inspo-992px {
+    display: none;
+  }
+
+  /* GRID */
+
+  .all-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+
+  .decor {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    align-self: stretch;
+  }
+
+  .furniture {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2;
+    align-self: stretch;
+  }
+
+  .trends {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    align-self: stretch;
+  }
+
+  .bottom-content_item {
+    align-self: stretch;
+    grid-area: 1 / col2-start / first-line / 3;
+    grid-row: span 2;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .products {
+    margin: 0;
+    padding: 0;
+  }
+
+  .inspiration-wrap {
+    height: 100%;
+  }
+
+  .inspo-desktop {
+    display: flex;
+  }
+
+  .product figure img,
+  .product-img,
+  figure {
+    height: 100%;
+  }
+
+  .inspo-img {
+    max-height: 60%;
+  }
+
+  .inspiration-wrap {
+    padding: 0;
+  }
+
+  .insp-text-container {
+    padding: 1rem;
+    position: relative;
+    padding-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .news-text-wrap {
+    max-width: 500px;
+  }
+
+  .news-heading {
+    max-width: 300px;
+  }
+
+  .news-text-wrap p {
+    max-width: 320px;
+  }
+
+  .banner-desktop {
+    padding-bottom: 17.8rem;
+  }
+
+  .all-products {
+    position: relative;
+    margin-top: -18.9rem;
+    z-index: 5;
+  }
+
+  .news-img {
+    width: 390px;
+    right: 18%;
+    top: -4rem;
+  }
+
+  .banner__brella-pattern {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .banner-desktop {
+    padding-bottom: 21rem;
+  }
+
+  .all-products {
+    margin-top: -21.8rem;
+  }
+  .news-text-wrap,
+  .news-heading,
+  .news-text-wrap p {
+    max-width: 60%;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .navbar-expand-lg .navbar-collapse {
+    padding-left: 13%;
+  }
+
+  .banner-desktop {
+    padding-bottom: 24rem;
+  }
+
+  .decorative-caption {
+    position: absolute;
+    bottom: 5%;
+    left: 30px;
+    max-width: 300px;
+  }
+
+  .all-products {
+    margin-top: -25.3rem;
+  }
+
+  .news-img {
+    right: 22%;
+  }
+
+  .banner__brella-pattern {
+    width: 33%;
+  }
+
+  .wide {
+    display: block;
+  }
+
+  .news {
+    padding-top: 2rem;
+  }
+}
