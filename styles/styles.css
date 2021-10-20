@@ -17,15 +17,7 @@ body {
 .navbar-light .navbar-nav .nav-link.active {
   border-bottom: var(--active-link) 1.5px solid;
   border-top: var(--active-link) 1.5px solid;
-
-  /* background-color: var(--dark);
-  color: var(--active-link);
-  border-radius: 4px; */
 }
-
-/* .navbar-collapse.collapse ul li a {
-  padding-left: 10px;
-} */
 
 .logo img {
   width: 150px;
@@ -54,6 +46,10 @@ a:hover {
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: var(--dark);
+}
+
+.inner-nav {
+  padding-top: 1rem;
 }
 
 /* search form */
@@ -683,6 +679,10 @@ footer .nav .nav-item .nav-link:hover {
 }
 
 @media only screen and (min-width: 1400px) {
+  .inner-nav {
+    padding-top: 1.5rem;
+  }
+
   .navbar-expand-lg .navbar-collapse {
     padding-left: 13%;
   }
