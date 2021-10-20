@@ -531,7 +531,6 @@ footer .nav .nav-item .nav-link:hover {
   }
 
   .logo img {
-    /* padding-top: 0.9rem; */
     margin-right: 4rem;
   }
 
@@ -643,7 +642,7 @@ footer .nav .nav-item .nav-link:hover {
 
   .all-products {
     position: relative;
-    margin-top: -18.9rem;
+    margin-top: -19.6rem;
     z-index: 5;
   }
 
