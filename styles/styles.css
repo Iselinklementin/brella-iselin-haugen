@@ -515,12 +515,7 @@ footer .nav .nav-item .nav-link:hover {
   .banner {
     padding: 3rem;
   }
-  .news-img {
-    width: 350px;
-    z-index: 1;
-    right: 18%;
-    top: -3rem;
-  }
+
   .banner__brella-pattern {
     background-image: url("/images/profile/brella-pattern.svg");
     position: absolute;
@@ -557,6 +552,9 @@ footer .nav .nav-item .nav-link:hover {
     grid-template-rows: repeat(2, 1fr);
     column-gap: 10px;
     row-gap: 15px;
+    position: relative;
+    margin-top: -19.6rem;
+    z-index: 5;
   }
 
   .decor {
@@ -606,6 +604,7 @@ footer .nav .nav-item .nav-link:hover {
   .product-img,
   figure {
     height: 100%;
+    object-fit: cover;
   }
 
   .inspo-img {
@@ -621,9 +620,7 @@ footer .nav .nav-item .nav-link:hover {
     position: relative;
     padding-top: 3rem;
   }
-}
 
-@media only screen and (min-width: 992px) {
   .news-text-wrap {
     max-width: 500px;
   }
@@ -640,20 +637,16 @@ footer .nav .nav-item .nav-link:hover {
     padding-bottom: 17.8rem;
   }
 
-  .all-products {
-    position: relative;
-    margin-top: -19.6rem;
-    z-index: 5;
-  }
-
   .news-img {
     width: 390px;
-    right: 18%;
+    right: 15%;
     top: -4rem;
+    z-index: 1;
+    top: -3rem;
   }
 
   .banner__brella-pattern {
-    width: 25%;
+    width: 24%;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -702,11 +695,13 @@ footer .nav .nav-item .nav-link:hover {
   }
 
   .news-img {
-    right: 22%;
+    right: 13%;
+    top: -5.9rem;
+    width: 419px;
   }
 
   .banner__brella-pattern {
-    width: 33%;
+    width: 24%;
   }
 
   .wide {
