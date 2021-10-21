@@ -74,7 +74,7 @@ a:hover {
 
 .btn-outline-success:hover,
 .btn-outline-success:active {
-  background-color: var(--primary-button);
+  background-color: var(--coral);
   /* background-color: var(--banner-primary); */
 }
 
@@ -273,8 +273,8 @@ figure {
 
 .search-arrow {
   transform: rotate(0.75turn);
-  height: 17px;
-  width: 22px;
+  height: 16px;
+  width: 18px;
 }
 
 /* Hover overlay */
