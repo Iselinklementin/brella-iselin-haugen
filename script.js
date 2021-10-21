@@ -13,5 +13,3 @@ navLinks.forEach(link => {
     link.classList.toggle("active");
   });
 });
-
-// REMEMBER to change button hover colors
