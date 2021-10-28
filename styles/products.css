@@ -202,7 +202,16 @@ figure {
   background-color: var(--active-link);
 }
 
+.product-link-text__arrow {
+  display: none;
+}
+
 @media only screen and (min-width: 800px) {
+  .product-link-text__arrow {
+    display: block;
+    top: 33rem;
+  }
+
   .product-icons-container {
     display: flex;
     justify-content: space-between;
@@ -273,5 +282,14 @@ figure {
 
   #mobile-btn {
     display: none;
+  }
+  .product-link-text__arrow {
+    top: 18.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .product-link-text__arrow {
+    top: 22rem;
   }
 }
