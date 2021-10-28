@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 78.5 73" style="enable-background:new 0 0 78.5 73;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EAD5C8;}
+	.st1{fill:#3A3633;stroke:#3A3633;stroke-miterlimit:10;}
+	.st2{fill:#3A3633;stroke:#3A3633;stroke-width:1.0014;stroke-miterlimit:10;}
+	.st3{fill:#3A3633;stroke:#3A3633;stroke-width:0.25;stroke-miterlimit:10;}
+	.st4{fill:#3A3633;}
+	.st5{fill:#3A3633;stroke:#3A3633;stroke-width:1.3186;stroke-miterlimit:10;}
+	.st6{fill:#3A3633;stroke:#3A3633;stroke-width:0.8679;stroke-miterlimit:10;}
+</style>
+<g>
+	<polyline class="st0" points="89.4,138.4 73.3,158.8 57.1,138.4 	"/>
+	<path class="st1" d="M25.4,43c8.3-14.3,16.2-28.1,24.5-42.5h-49C9.2,14.9,17.1,28.7,25.4,43z M35.1,9c-3.3,5.7-6.4,11.1-9.8,16.9
+		c-3.3-5.6-6.4-11-9.8-16.9H35.1z"/>
+	<rect x="21.1" y="31.1" class="st1" width="8.6" height="41.3"/>
+	
+		<rect x="21.1" y="53.8" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 93.4294 42.712)" class="st1" width="8.6" height="28.5"/>
+	<rect x="62.5" y="31.1" class="st2" width="8.6" height="41.4"/>
+	<rect x="54.7" y="0.3" class="st3" width="5.1" height="28"/>
+	<rect x="64.3" y="0.3" class="st3" width="5.1" height="28"/>
+	
+		<rect x="61.8" y="14.3" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 92.5684 -40.4757)" class="st3" width="9.5" height="23.6"/>
+	<rect x="73.3" y="0.3" class="st3" width="5.1" height="28"/>
+</g>
+<g>
+	<path class="st4" d="M182.9,130.1c13.9,0,25.2,11.3,25.2,25.2s-11.3,25.2-25.2,25.2s-25.2-11.3-25.2-25.2S169,130.1,182.9,130.1
+		 M182.9,119.1c-20,0-36.2,16.2-36.2,36.2c0,20,16.2,36.2,36.2,36.2s36.2-16.2,36.2-36.2C219.1,135.3,202.9,119.1,182.9,119.1
+		L182.9,119.1z"/>
+</g>
+<rect x="126.9" y="116.5" transform="matrix(-1 -4.499080e-11 4.499080e-11 -1 262.3183 304.7271)" class="st5" width="8.6" height="71.7"/>
+<rect x="131.7" y="116.2" transform="matrix(-1 -4.435708e-11 4.435708e-11 -1 272.0814 263.5593)" class="st6" width="8.6" height="31.1"/>
+</svg>
