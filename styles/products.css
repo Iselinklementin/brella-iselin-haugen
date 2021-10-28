@@ -1,0 +1,167 @@
+@import "./variables.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex: 1 0 auto;
+}
+
+.card {
+  box-shadow: rgb(219, 219, 219) 2px 1px 5px 2px;
+}
+
+.product-link-text,
+.overlay-text {
+  top: 91%;
+}
+
+.product-link-text__arrow {
+  height: 18px;
+}
+
+.img-fluid {
+  height: 540px;
+  width: 100%;
+  object-fit: cover;
+  /* object-position: 55%; */
+  filter: brightness(110%);
+}
+
+.top-product {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.cat-h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  /* background-color: white; */
+  /* padding: 10px; */
+}
+
+/* 
+.test-container {
+  background-color: white;
+  padding: 1rem 2rem 3rem 2rem;
+} */
+
+.product-banner {
+  background-color: var(--main-bg-medium);
+  margin-top: 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.product-intro {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  z-index: 5;
+  color: white;
+  max-width: 450px;
+  line-height: 1.5;
+}
+
+.product-intro h2 {
+  margin-bottom: 1.5rem;
+}
+
+.product-news-btn {
+  background-color: var(--primary-button);
+  color: white;
+}
+
+.product-news-btn:hover {
+  background-color: var(--active-link);
+}
+
+.icon {
+  height: 25px;
+}
+
+.wrap-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.line {
+  border: var(--dark) solid thin;
+  height: 50px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.icons {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.icons:hover {
+  scale: 1.03;
+}
+
+.icons p {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.product-description {
+  background: white;
+  /* height: 100px; */
+  margin-top: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.product-container_item {
+  position: relative;
+}
+
+.product-link-text__arrow {
+  position: absolute;
+  width: 20px;
+  left: 48%;
+  top: 22rem;
+  z-index: 10;
+}
+
+.price {
+  font-weight: 700;
+}
+
+.product figure img,
+.product-img,
+figure {
+  height: auto;
+}
+
+.card:hover {
+  box-shadow: 2px 1px 5px 2px rgba(134, 141, 138, 0.25);
+}
+
+.item-furniture:hover .overlay,
+.item-trending:hover .overlay,
+.product-container_item:hover .overlay {
+  opacity: 1;
+  box-shadow: none;
+}
+
+@media only screen and (min-width: 1400px) {
+}
