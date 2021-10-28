@@ -18,9 +18,9 @@ footer {
   top: 91%;
 }
 
-.product-link-text__arrow {
+/* .product-link-text__arrow {
   height: 18px;
-}
+} */
 
 .img-fluid {
   height: 540px;
@@ -67,15 +67,6 @@ footer {
 
 .product-intro h2 {
   margin-bottom: 1.5rem;
-}
-
-.product-news-btn {
-  background-color: var(--primary-button);
-  color: white;
-}
-
-.product-news-btn:hover {
-  background-color: var(--active-link);
 }
 
 .icon {

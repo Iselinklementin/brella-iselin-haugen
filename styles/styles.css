@@ -234,7 +234,8 @@ figure {
   top: 10%;
 }
 
-.product-link-text__arrow {
+.product-link-text__arrow,
+#search-arrow {
   background-image: url("/images/profile/brella-arrow.svg");
   background-repeat: no-repeat;
   width: 30px;
@@ -243,7 +244,7 @@ figure {
 
 /* Search arrow */
 
-.search-arrow {
+#search-arrow {
   transform: rotate(0.75turn);
   height: 16px;
   width: 18px;
