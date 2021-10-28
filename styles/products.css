@@ -209,7 +209,7 @@ figure {
 @media only screen and (min-width: 800px) {
   .product-link-text__arrow {
     display: block;
-    top: 33rem;
+    top: 24rem;
   }
 
   .product-icons-container {
@@ -267,6 +267,10 @@ figure {
     top: -8rem;
     left: -36rem;
   }
+
+  .product-link-text__arrow {
+    top: 33rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -283,12 +287,13 @@ figure {
   #mobile-btn {
     display: none;
   }
+
   .product-link-text__arrow {
-    top: 18.5rem;
+    top: 18rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
   .product-link-text__arrow {
     top: 22rem;
   }
