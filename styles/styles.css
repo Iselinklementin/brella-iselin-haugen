@@ -21,8 +21,13 @@ h1 {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  border-bottom: var(--active-link) 1.5px solid;
-  border-top: var(--active-link) 1.5px solid;
+  /* border-bottom: var(--active-link) 1.5px solid;
+  border-top: var(--active-link) 1.5px solid; */
+  background-color: #a2baba;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 10px;
 }
 
 .logo img {
@@ -484,6 +489,16 @@ footer .nav .nav-item .nav-link:hover {
 }
 
 @media only screen and (min-width: 992px) {
+  .navbar-light .navbar-nav .nav-link.active {
+    border-bottom: var(--active-link) 1.5px solid;
+    border-top: var(--active-link) 1.5px solid;
+    background-color: transparent;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: unset;
+  }
+
   .navbar-collapse {
     padding-top: initial;
     box-shadow: none;

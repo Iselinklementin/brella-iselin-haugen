@@ -45,7 +45,7 @@ i {
 .product-banner {
   background-color: var(--main-bg-medium);
   margin-top: 0;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 4rem;
 }
 
@@ -319,6 +319,10 @@ figure {
 }
 
 @media only screen and (min-width: 990px) {
+  .product-banner {
+    padding-top: 4rem;
+  }
+
   .buy-btn,
   .more-btn {
     margin: 0;

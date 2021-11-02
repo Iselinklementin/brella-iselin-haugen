@@ -24,3 +24,20 @@ function buttonText() {
 }
 
 window.onresize = buttonText();
+
+const navbarActive = document.querySelector(".navbar-toggler");
+const nav = document.querySelector(".navbar");
+console.log(nav);
+navbarActive.addEventListener("click", toggler);
+
+function toggler(e) {
+  const classes = navbarActive.classList;
+  const collapsed = classes.contains("collapsed") ? false : true;
+  nav.style.paddingBottom = "0rem";
+  nav.style.boxShadow = "none";
+
+  if (collapsed) {
+    nav.style.paddingBottom = "4rem";
+    nav.style.boxShadow = "0px 0px 14px 3px #00000040";
+  }
+}
