@@ -14,6 +14,12 @@ body {
   background-size: cover;
 }
 
+h3,
+h1 {
+  font-family: "Playfair Display", "Open Sans";
+  font-weight: 700;
+}
+
 .navbar-light .navbar-nav .nav-link.active {
   border-bottom: var(--active-link) 1.5px solid;
   border-top: var(--active-link) 1.5px solid;
@@ -118,9 +124,9 @@ a:hover {
 }
 
 .intro-text-wrap p {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .intro-photo {
@@ -178,6 +184,12 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
 .btn {
   font-weight: 600;
 }
@@ -211,7 +223,7 @@ a:hover {
 
 .product {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .product figure img {
@@ -331,19 +343,30 @@ footer .nav .nav-item .nav-link {
   font-size: 1rem;
 }
 
+footer .nav .nav-item .nav-link i {
+  font-size: 1.3rem;
+}
+
 footer .nav .nav-item .nav-link:hover {
   color: var(--active-link);
 }
 
 .nav-footer {
   align-items: center;
-  max-width: 360px;
+  /* max-width: 360px; */
 }
 
 .logo-footer {
   background-image: url("/images/profile/brella-element.svg");
   width: 40px;
   height: 40px;
+}
+
+.separate {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
 .logo-link {
@@ -386,10 +409,13 @@ footer .nav .nav-item .nav-link:hover {
 
 @media only screen and (min-width: 767px) {
   .intro-text-wrap p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .products h2 {
     font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
   }
   .intro-photo {
     height: 400px;
@@ -623,6 +649,15 @@ footer .nav .nav-item .nav-link:hover {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .news-text-wrap,
+  .news-heading,
+  .news-text-wrap p {
+    font-size: 1.1rem;
+  }
+  .heading {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -637,6 +672,10 @@ footer .nav .nav-item .nav-link:hover {
   .news-heading,
   .news-text-wrap p {
     max-width: 60%;
+    /* font-size: 1.4rem; */
+  }
+  .heading {
+    font-size: 2.4rem;
   }
   .navbar-expand-lg .navbar-collapse {
     padding-left: 10%;

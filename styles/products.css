@@ -33,6 +33,13 @@ footer {
 .cat-h2 {
   font-size: 1.6rem;
   font-weight: 700;
+  margin-top: 3rem;
+  color: var(--dark);
+}
+
+i {
+  font-size: 0.8rem;
+  margin-left: 0.4rem;
 }
 
 .product-banner {
@@ -44,8 +51,9 @@ footer {
 
 .product-intro {
   position: absolute;
-  top: 15%;
-  left: 5%;
+  /* top: 15%; */
+  top: 8%;
+  left: 6%;
   z-index: 5;
   color: white;
   max-width: 450px;
@@ -54,6 +62,22 @@ footer {
 
 .product-intro h2 {
   margin-bottom: 1.5rem;
+  line-height: 1;
+}
+
+.light-name {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+/* .text {
+  line-height: 1.5;
+} */
+
+.new-in {
+  color: var(--active-link);
+  font-weight: 600;
 }
 
 /* .icons {
@@ -186,16 +210,20 @@ figure {
   width: 100%;
 }
 
+.mobile-heading {
+  display: none;
+}
+
 #mobile-btn {
   position: absolute;
   right: 0;
   left: 0;
   top: -20px;
   margin: auto;
-  max-width: 189px;
+  max-width: 170px;
   background-color: var(--coral);
-  height: 50px;
-  line-height: 2;
+  /* height: 50px; */
+  /* line-height: 2; */
 }
 
 #mobile-btn:hover {
@@ -204,6 +232,34 @@ figure {
 
 .product-link-text__arrow {
   display: none;
+}
+
+.product-btns-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-btn,
+.more-btn {
+  width: 90px;
+  line-height: 1;
+  margin: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.buy-btn {
+  /* background-color: var(--coral); */
+  background-color: black;
+  color: white;
+}
+
+.buy-btn:hover {
+  background-color: var(--active-link);
+}
+
+.more-btn:hover {
+  color: var(--active-link);
 }
 
 @media only screen and (min-width: 800px) {
@@ -263,13 +319,28 @@ figure {
 }
 
 @media only screen and (min-width: 990px) {
+  .buy-btn,
+  .more-btn {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-heading {
+    display: block;
+    position: absolute;
+    top: -10rem;
+    left: 3rem;
+    line-height: 1;
+  }
+
   #mobile-btn {
-    top: -8rem;
-    left: -36rem;
+    top: -4.5rem;
+    left: -42rem;
   }
 
   .product-link-text__arrow {
-    top: 33rem;
+    /* top: 33rem; */
+    top: 15rem;
   }
 }
 
@@ -284,12 +355,19 @@ figure {
     object-position: unset;
   }
 
-  #mobile-btn {
+  #mobile-btn,
+  .mobile-heading {
     display: none;
   }
 
   .product-link-text__arrow {
     top: 18rem;
+  }
+
+  .buy-btn,
+  .more-btn {
+    margin: 0.5;
+    margin-bottom: 2rem;
   }
 }
 
