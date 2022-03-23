@@ -1,7 +1,5 @@
 # Colour schemes and textures
 
-[My project](https://design2-iselin-haugen.netlify.app/)
-
 ### Goal
 Here you will be tested on choosing colour schemes, analysing colours chosen and textures.
 
@@ -40,3 +38,4 @@ Choose 2-3 fonts for the Home Decor website homepage and products page: Research
 - Analyse and give the user experience of each of the colours and how the mood and user experience of each color benefits for this genre of website.
 - Explain the choice of texture and how it fits with the website
     
+[My project](https://design2-iselin-haugen.netlify.app/)
