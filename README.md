@@ -8,12 +8,12 @@ Here you will be tested on choosing colour schemes, analysing colours chosen and
 ### Brief
 Create and code a homepage with HTML and CSS for a Home Decor website to include colours and textures as below:
 
-**Process**
-
 - Create a simple logo for the website and include in the homepage.
 - Include basic content, i.e. heading, a few navigation links, a couple content areas, and Latin text for content areas if needed.
 - Choose a colour scheme and with 2-3 colors to combine for use in the website which goes with the brand, i.e. logo of the website, use in backgrounds of elements/content areas and or elements on the page.
 - Find online/choose or create and use a seamless textures/pattern for use in the background of the website.
+
+
 - Include a Report which includes the following:
 - Explain which colour scheme you have chosen
 - How the colours chosen are a good example of the colour scheme
